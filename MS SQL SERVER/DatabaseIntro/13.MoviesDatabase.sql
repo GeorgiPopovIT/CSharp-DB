@@ -1,0 +1,65 @@
+CREATE DATABASE Movies 
+
+USE Movies
+
+CREATE TABLE Directors
+(
+Id INT PRIMARY KEY IDENTITY,
+DirectorName VARCHAR(30),
+Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Directors VALUES
+('QNKO','FDFDFFS'),
+('QNKO','FDFDFFS'),
+('QNKO','FDFDFFS'),
+('QNKO','FDFDFFS'),
+('QNKO','FDFDFFS')
+
+CREATE TABLE Genres
+(
+Id INT PRIMARY KEY IDENTITY,
+GenreName VARCHAR(30),
+Notes VARCHAR(MAX)
+)
+
+INSERT INTO Genres VALUES
+('DASD','FDFDFFS'),
+('DASD','FDFDFFS'),
+('DASD','FDFDFFS'),
+('DASD','FDFDFFS'),
+('DASD','FDFDFFS')
+
+CREATE TABLE Categories
+(
+Id INT PRIMARY KEY IDENTITY,
+CategoryName VARCHAR(30),
+Notes VARCHAR(MAX)
+)
+
+INSERT INTO Categories VALUES
+('AA','FDFDFFS'),
+('AA','FDFDFFS'),
+('AA','FDFDFFS'),
+('AA','FDFDFFS'),
+('AA','FDFDFFS')
+
+CREATE TABLE Movies
+(
+Id INT PRIMARY KEY IDENTITY,
+Title VARCHAR(30),
+DirectorId INT NOT NULL,
+CopyrightYear DATE,
+Length CHAR(3),
+GenreId INT NOT NULL,
+CategoryId INT NOT NULL,
+Rating TINYINT,
+Notes VARCHAR(MAX)
+)
+
+INSERT INTO Movies VALUES
+('hello',1, '2012',223,2,4,5,'123321'),
+('hello',1, '2012',223,2,4,5,'123321'),
+('hello',1, '2012',223,2,4,5,'123321'),
+('hello',1, '2012',223,2,4,5,'123321'),
+('hello',1, '2012',223,2,4,5,'123321')

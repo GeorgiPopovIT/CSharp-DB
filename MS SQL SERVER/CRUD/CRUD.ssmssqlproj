@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CRUD">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):DESKTOP-II8J3KR\Georges">
+          <Created>2021-01-15T09:16:11.2538028+02:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>SoftUni</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="10. FindNamesOfAllEmployees .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10. FindNamesOfAllEmployees .sql</FullPath>
+        </FileNode>
+        <FileNode Name="11.FindAllEmployeesWithoutManager.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11.FindAllEmployeesWithoutManager.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12.FindAllEmployeesWithSalaryMoreThan50000.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12.FindAllEmployeesWithSalaryMoreThan50000.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13.Find5BestPaidEmployees..sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13.Find5BestPaidEmployees..sql</FullPath>
+        </FileNode>
+        <FileNode Name="14.FindAllEmployeesExceptMarketing.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14.FindAllEmployeesExceptMarketing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15.SortEmployeesTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15.SortEmployeesTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16. CreateViewEmployeesWithSalaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16. CreateViewEmployeesWithSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17.CreateViewEmployeesWithJobTitles.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17.CreateViewEmployeesWithJobTitles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18.DistinctJobTitles.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18.DistinctJobTitles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19.FindFirst10StartedProjects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19.FindFirst10StartedProjects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.FindAllInformationAboutDepartments.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.FindAllInformationAboutDepartments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20.Last7HiredEmployees.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20.Last7HiredEmployees.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21.IncreaseSalaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21.IncreaseSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22.AllMountainPeaks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22.AllMountainPeaks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="23. BiggestCountriesByPopulation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>23. BiggestCountriesByPopulation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="24.CountriesAndCurrencyEuroORNotEuro).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>24.CountriesAndCurrencyEuroORNotEuro).sql</FullPath>
+        </FileNode>
+        <FileNode Name="25. AllDiabloCharacters.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>25. AllDiabloCharacters.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.FindAllDepartmentNames.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3.FindAllDepartmentNames.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4.FindSalaryOfEachEmployee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4.FindSalaryOfEachEmployee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.FindFullNameOfEachEmployee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5.FindFullNameOfEachEmployee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6. FindEmailAddressOfEachEmployee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6. FindEmailAddressOfEachEmployee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7.FindAllDifferentEmployee’sSalaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7.FindAllDifferentEmployee’sSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8.FindAllInformationAboutEmployees.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8.FindAllInformationAboutEmployees.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9.FindNamesOfAllEmployeesBySalaryInRange.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9.FindNamesOfAllEmployeesBySalaryInRange.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Diablo-Database.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Diablo-Database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Geography-Database.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Geography-Database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SoftUni-Database.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SoftUni-Database.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
