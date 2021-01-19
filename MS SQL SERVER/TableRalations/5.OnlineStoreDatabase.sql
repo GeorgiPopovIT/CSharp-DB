@@ -1,0 +1,38 @@
+--CREATE DATABASE [Online Store]
+--USE [Online Store]
+
+CREATE TABLE Cities
+(
+	CityID INT PRIMARY KEY NOT NULL,
+	[Name] VARCHAR(50)
+)
+CREATE TABLE Customers
+(
+	CustomerID INT PRIMARY KEY NOT NULL,
+	[Name] VARCHAR(50),
+	Birthday DATE,
+	CityID INT REFERENCES Cities(CityID) NOT NULL
+)
+CREATE TABLE Orders
+(
+	OrderID INT PRIMARY KEY NOT NULL,
+	CustomerID INT REFERENCES Customers(CustomerID)
+)
+
+CREATE TABLE ItemTypes
+(
+	ItemTypeID INT PRIMARY KEY  NOT NULL,
+	[Name] VARCHAR(50)
+)
+CREATE TABLE Items
+(
+	ItemID INT PRIMARY KEY  NOT NULL,
+	[Name] VARCHAR(50),
+	ItemTypeID INT REFERENCES ItemTypes(ItemTypeID) NOT NULL
+)
+CREATE TABLE OrderItems
+(
+	OrderID INT  REFERENCES Orders(OrderID)  NOT NULL,
+	ItemID INT  REFERENCES Items(ItemID) NOT NULL
+	PRIMARY KEY (OrderID,ItemID)
+)

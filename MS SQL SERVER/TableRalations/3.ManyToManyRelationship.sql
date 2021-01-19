@@ -1,0 +1,16 @@
+CREATE TABLE Students
+(
+	StudentID INT PRIMARY KEY IDENTITY,
+	[Name] VARCHAR(20)
+)
+CREATE TABLE Exams
+(
+	ExamID INT PRIMARY KEY IDENTITY,
+	[Name] VARCHAR(20)
+)
+CREATE TABLE StudentsExams
+(
+	StudentID INT REFERENCES Students(StudentID),
+	ExamID INT REFERENCES Exams(ExamID)
+	PRIMARY KEY (StudentID,ExamID)
+)
