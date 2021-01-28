@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Subqueries And Joins", "Subqueries And Joins.ssmssqlproj", "{300A1840-670A-4BE8-AC7A-10CF83F577D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{300A1840-670A-4BE8-AC7A-10CF83F577D2}.Default|Default.ActiveCfg = Default
+		{D0D782C4-03F9-4190-B122-37507F9E3BFE}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8B180CF-0ECC-4058-AFC2-DC65B6DB2AB8}
+	EndGlobalSection
+EndGlobal
