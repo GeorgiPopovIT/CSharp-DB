@@ -1,6 +1,7 @@
-SELECT c.ContinentCode, c.CurrencyCode, 
-       COUNT(*) AS [CurrencyUsage]
-FROM Countries AS c
-GROUP BY c.ContinentCode,c.CurrencyCode
-HAVING COUNT(*) > 1
+SELECT ContinentCode,CurrencyCode,CurrencyUsage FROM(
+SELECT ContinentCode,CurrencyCode,COUNT(CurrencyCode) AS CurrencyUsage,
+DENSE_RANK () OVER(PARTITION BY ContinentCode ORDER BY COUNT(CurrencyCode)DESC) AS Ranked
+ FROM Countries
+ GROUP BY ContinentCode,CurrencyCode) AS k
+WHERE  Ranked = 1 AND CurrencyUsage > 1
 ORDER BY ContinentCode	
