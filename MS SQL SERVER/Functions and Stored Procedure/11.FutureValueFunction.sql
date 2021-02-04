@@ -1,0 +1,10 @@
+CREATE  FUNCTION ufn_CalculateFutureValue (@I DECIMAL(18,5),@R FLOAT, @T INT)
+RETURNS DECIMAL(18,4)
+AS BEGIN
+	DECLARE @FV DECIMAL(18,4) = @I * (POWER((1 + @R),@T))
+ RETURN @FV
+END 
+
+
+SELECT dbo.ufn_CalculateFutureValue(1000,0.1,5)
+
