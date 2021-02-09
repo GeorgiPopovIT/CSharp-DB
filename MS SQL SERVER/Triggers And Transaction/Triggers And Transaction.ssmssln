@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Triggers And Transaction", "Triggers And Transaction\Triggers And Transaction.ssmssqlproj", "{1BE541F3-E031-4AAD-B000-AC84B69C5B37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BE541F3-E031-4AAD-B000-AC84B69C5B37}.Default|Default.ActiveCfg = Default
+		{4FAB451D-AE68-401C-B4BB-D2E2AFC37F9A}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DCE1209-F68D-4331-A474-F6976EC81E8C}
+	EndGlobalSection
+EndGlobal

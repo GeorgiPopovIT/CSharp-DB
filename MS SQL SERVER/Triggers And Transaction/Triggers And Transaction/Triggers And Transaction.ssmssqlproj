@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Additional Exercises">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Triggers And Transaction">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="(local):DESKTOP-II8J3KR\Georges">
-          <Created>2021-02-01T13:56:17.2531335+02:00</Created>
+          <Created>2021-02-08T07:40:55.2052049+02:00</Created>
           <Type>SQL</Type>
           <Server>(local)</Server>
           <UserName />
@@ -19,23 +19,29 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="1.NumberOfUsersForEmailProvider.sql">
+        <FileNode Name="6.Triggers.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>1.NumberOfUsersForEmailProvider.sql</FullPath>
+          <FullPath>6.Triggers.sql</FullPath>
         </FileNode>
-        <FileNode Name="2.AllUserInGames.sql">
+        <FileNode Name="7.MassiveShopping.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>2.AllUserInGames.sql</FullPath>
+          <FullPath>7.MassiveShopping.sql</FullPath>
         </FileNode>
-        <FileNode Name="3.UsersInGamesWithTheirItems.sql">
+        <FileNode Name="8.EmployeesWithThreeProjects.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>3.UsersInGamesWithTheirItems.sql</FullPath>
+          <FullPath>8.EmployeesWithThreeProjects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9.DeleteEmployees.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9.DeleteEmployees.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
