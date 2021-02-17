@@ -1,0 +1,41 @@
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\4.Add Minion.exe
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\4.Add Minion.deps.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\4.Add Minion.runtimeconfig.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\4.Add Minion.runtimeconfig.dev.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\4.Add Minion.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\4.Add Minion.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\obj\Debug\netcoreapp3.1\4.Add Minion.csprojAssemblyReference.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\obj\Debug\netcoreapp3.1\4.Add Minion.AssemblyInfoInputs.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\obj\Debug\netcoreapp3.1\4.Add Minion.AssemblyInfo.cs
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\obj\Debug\netcoreapp3.1\4.Add Minion.csproj.CoreCompileInputs.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\obj\Debug\netcoreapp3.1\4.Add Minion.csproj.CopyComplete
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\obj\Debug\netcoreapp3.1\4.Add Minion.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\obj\Debug\netcoreapp3.1\4.Add Minion.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\4.Add Minion\obj\Debug\netcoreapp3.1\4.Add Minion.genruntimeconfig.cache

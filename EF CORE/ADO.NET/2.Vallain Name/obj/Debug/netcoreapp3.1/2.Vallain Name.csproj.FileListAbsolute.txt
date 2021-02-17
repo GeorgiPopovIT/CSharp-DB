@@ -1,0 +1,41 @@
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\2.Vallain Name.exe
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\2.Vallain Name.deps.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\2.Vallain Name.runtimeconfig.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\2.Vallain Name.runtimeconfig.dev.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\2.Vallain Name.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\2.Vallain Name.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\obj\Debug\netcoreapp3.1\2.Vallain Name.csprojAssemblyReference.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\obj\Debug\netcoreapp3.1\2.Vallain Name.AssemblyInfoInputs.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\obj\Debug\netcoreapp3.1\2.Vallain Name.AssemblyInfo.cs
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\obj\Debug\netcoreapp3.1\2.Vallain Name.csproj.CoreCompileInputs.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\obj\Debug\netcoreapp3.1\2.Vallain Name.csproj.CopyComplete
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\obj\Debug\netcoreapp3.1\2.Vallain Name.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\obj\Debug\netcoreapp3.1\2.Vallain Name.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\ADO.NET\2.Vallain Name\obj\Debug\netcoreapp3.1\2.Vallain Name.genruntimeconfig.cache
