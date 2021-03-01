@@ -1,0 +1,15 @@
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.deps.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.runtimeconfig.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.runtimeconfig.dev.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\bin\Debug\netcoreapp3.1\P03_FootballBetting.Models.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\bin\Debug\netcoreapp3.1\P03_FootballBetting.Models.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.csprojAssemblyReference.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.AssemblyInfoInputs.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.AssemblyInfo.cs
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.csproj.CoreCompileInputs.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.csproj.CopyComplete
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Data\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.genruntimeconfig.cache

@@ -1,0 +1,9 @@
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Models.deps.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Models.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Models.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Models.csprojAssemblyReference.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Models.AssemblyInfoInputs.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Models.AssemblyInfo.cs
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Models.csproj.CoreCompileInputs.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Models.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Entity Relations\P03_FootballBetting.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Models.pdb
