@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Georges\\source\\repos\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj": {}
+    "C:\\Users\\Georges\\Desktop\\CSharp-DB\\EF CORE\\Code First\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Georges\\source\\repos\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj": {
+    "C:\\Users\\Georges\\Desktop\\CSharp-DB\\EF CORE\\Code First\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Georges\\source\\repos\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj",
+        "projectUniqueName": "C:\\Users\\Georges\\Desktop\\CSharp-DB\\EF CORE\\Code First\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj",
         "projectName": "P01_HospitalDatabase",
-        "projectPath": "C:\\Users\\Georges\\source\\repos\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj",
+        "projectPath": "C:\\Users\\Georges\\Desktop\\CSharp-DB\\EF CORE\\Code First\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj",
         "packagesPath": "C:\\Users\\Georges\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Georges\\source\\repos\\P01_HospitalDatabase\\P01_HospitalDatabase\\obj\\",
+        "outputPath": "C:\\Users\\Georges\\Desktop\\CSharp-DB\\EF CORE\\Code First\\P01_HospitalDatabase\\P01_HospitalDatabase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Georges\\AppData\\Roaming\\NuGet\\NuGet.Config",

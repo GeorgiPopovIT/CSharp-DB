@@ -15,7 +15,7 @@ namespace P01_HospitalDatabase.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.0-rtm-35687")
+                .HasAnnotation("ProductVersion", "3.1.3")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -23,15 +23,19 @@ namespace P01_HospitalDatabase.Migrations
                 {
                     b.Property<int>("DiagnoseId")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Comments")
+                        .HasColumnType("nvarchar(250)")
                         .HasMaxLength(250);
 
                     b.Property<string>("Name")
+                        .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
-                    b.Property<int>("PatientId");
+                    b.Property<int>("PatientId")
+                        .HasColumnType("int");
 
                     b.HasKey("DiagnoseId");
 
@@ -40,13 +44,35 @@ namespace P01_HospitalDatabase.Migrations
                     b.ToTable("Diagnoses");
                 });
 
+            modelBuilder.Entity("P01_HospitalDatabase.Data.Models.Doctor", b =>
+                {
+                    b.Property<int>("DoctorId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
+
+                    b.Property<string>("Speciality")
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
+
+                    b.HasKey("DoctorId");
+
+                    b.ToTable("Doctors");
+                });
+
             modelBuilder.Entity("P01_HospitalDatabase.Data.Models.Medicament", b =>
                 {
                     b.Property<int>("MedicamentId")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Name")
+                        .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
                     b.HasKey("MedicamentId");
@@ -58,6 +84,7 @@ namespace P01_HospitalDatabase.Migrations
                 {
                     b.Property<int>("PatientId")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Address")
@@ -67,11 +94,14 @@ namespace P01_HospitalDatabase.Migrations
                         .HasColumnType("nvarchar(80)");
 
                     b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
-                    b.Property<bool>("HasInsurance");
+                    b.Property<bool>("HasInsurance")
+                        .HasColumnType("bit");
 
                     b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
                     b.HasKey("PatientId");
@@ -81,9 +111,11 @@ namespace P01_HospitalDatabase.Migrations
 
             modelBuilder.Entity("P01_HospitalDatabase.Data.Models.PatientMedicament", b =>
                 {
-                    b.Property<int>("MedicamentId");
+                    b.Property<int>("MedicamentId")
+                        .HasColumnType("int");
 
-                    b.Property<int>("PatientId");
+                    b.Property<int>("PatientId")
+                        .HasColumnType("int");
 
                     b.HasKey("MedicamentId", "PatientId");
 
@@ -96,16 +128,25 @@ namespace P01_HospitalDatabase.Migrations
                 {
                     b.Property<int>("VisitationId")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Comments")
+                        .HasColumnType("nvarchar(250)")
                         .HasMaxLength(250);
 
-                    b.Property<DateTime>("Date");
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
 
-                    b.Property<int>("PatientId");
+                    b.Property<int>("DoctorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PatientId")
+                        .HasColumnType("int");
 
                     b.HasKey("VisitationId");
+
+                    b.HasIndex("DoctorId");
 
                     b.HasIndex("PatientId");
 
@@ -117,7 +158,8 @@ namespace P01_HospitalDatabase.Migrations
                     b.HasOne("P01_HospitalDatabase.Data.Models.Patient", "Patient")
                         .WithMany("Diagnoses")
                         .HasForeignKey("PatientId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("P01_HospitalDatabase.Data.Models.PatientMedicament", b =>
@@ -125,20 +167,29 @@ namespace P01_HospitalDatabase.Migrations
                     b.HasOne("P01_HospitalDatabase.Data.Models.Medicament", "Medicament")
                         .WithMany("Prescriptions")
                         .HasForeignKey("MedicamentId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("P01_HospitalDatabase.Data.Models.Patient", "Patient")
                         .WithMany("Prescriptions")
                         .HasForeignKey("PatientId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("P01_HospitalDatabase.Data.Models.Visitation", b =>
                 {
+                    b.HasOne("P01_HospitalDatabase.Data.Models.Doctor", "Doctor")
+                        .WithMany("Visitations")
+                        .HasForeignKey("DoctorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("P01_HospitalDatabase.Data.Models.Patient", "Patient")
                         .WithMany("Visitations")
                         .HasForeignKey("PatientId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

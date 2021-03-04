@@ -21,7 +21,7 @@ namespace P01_HospitalDatabase.Data.Models
         public string LastName { get; set; }
         [Column(TypeName ="nvarchar(250)")]
         public string Address { get; set; }
-        [Column(TypeName = "nvarchar(80)")]
+        [Column(TypeName = "varchar(80)")]
         public string Email { get; set; }
         public bool HasInsurance { get; set; }
 
