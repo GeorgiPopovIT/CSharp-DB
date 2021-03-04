@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Reflection;
 
@@ -43,6 +45,42 @@ namespace MiniORM
                 if (invalidEntities.Any())
                 {
                     throw new InvalidOperationException($"{invalidEntities.Length} Invalid entites found in {dbSet.GetType().Name}");
+                }
+            }
+            using (new ConnectionManager(connection))
+            {
+                using (var transaction = this.connection.StartTransaction())
+                {
+                    foreach (IEnumerable dbSet in dbSets)
+                    {
+                        var dbSetType = dbSet.GetType().GetGenericArguments().First();
+
+                        var persistMethod = typeof(DbContext)
+                            .GetMethod("Persist", BindingFlags.Instance | BindingFlags.NonPublic)
+                            .MakeGenericMethod(dbSetType);
+
+                        try
+                        {
+                            persistMethod.Invoke(this, new object[] { dbSet });
+
+                        }
+                        catch (TargetInvocationException tie)
+                        {
+
+                            throw tie.InnerException;
+                        }
+                        catch (InvalidOperationException)
+                        {
+                            transaction.Rollback();
+                            throw;
+                        }
+                        catch (SqlException)
+                        {
+                            transaction.Rollback();
+                            throw;
+                        }
+                    }
+                    transaction.Commit();
                 }
             }
         }

@@ -4,14 +4,12 @@ C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\M
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\MusicHub.runtimeconfig.dev.json
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\MusicHub.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\MusicHub.pdb
-C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\LINQ\05. MusicHub Database_Skeleton\MusicHub\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
