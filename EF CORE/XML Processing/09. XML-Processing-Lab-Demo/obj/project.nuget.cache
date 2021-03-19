@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "excgpfQTKWYYPhFaUxintKL4sE9GtCe4msU/oOYftk2ncjzWl8D/fmLw8Zivs53im0GG6DqyAM5LmbgKPBfU1w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Georges\\Desktop\\CSharp-DB\\EF CORE\\XML Processing\\09. XML-Processing-Lab-Demo\\XmlAttributesDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Georges\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Georges\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Georges\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Georges\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Georges\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Georges\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

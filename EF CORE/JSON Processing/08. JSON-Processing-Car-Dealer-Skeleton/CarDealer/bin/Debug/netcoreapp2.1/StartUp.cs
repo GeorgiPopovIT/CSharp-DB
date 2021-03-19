@@ -27,8 +27,8 @@ namespace CarDealer
             //Console.WriteLine(ImportParts(db, inputJson));
 
             //ex.11
-            //var inputJson = File.ReadAllText("../../../Datasets/cars.json");
-            //Console.WriteLine(ImportCars(db, inputJson));
+            var inputJson = File.ReadAllText("../../../Datasets/cars.json");
+            Console.WriteLine(ImportCars(db, inputJson));
 
             //еx.12
             //var inputJson = File.ReadAllText("../../../Datasets/customers.json");
@@ -43,8 +43,8 @@ namespace CarDealer
             //File.WriteAllText(dirPath +"/ordered-customers.json", json);
 
             //ex.15
-            var json = GetCarsFromMakeToyota(db);
-            File.WriteAllText(dirPath + "/toyota-cars.json", json);
+            //var json = GetCarsFromMakeToyota(db);
+            //File.WriteAllText(dirPath + "/toyota-cars.json", json);
         }
         //ex.9
         public static string ImportSuppliers(CarDealerContext context, string inputJson)
@@ -59,23 +59,21 @@ namespace CarDealer
         //ex.10
         public static string ImportParts(CarDealerContext context, string inputJson)
         {
-            var parts = JsonConvert.DeserializeObject<List<Part>>(inputJson);
+            var parts = JsonConvert.DeserializeObject<IEnumerable<Part>>(inputJson);
 
-            var suppliers = context.Suppliers.Select(s => s.Id);
+            var suppliers = context.Suppliers.Select(x => x.Id);
+            parts = parts.Where(p => suppliers.Any(s => s == p.SupplierId)).ToList();
 
-            parts = parts
-                .Where(p => suppliers.Any(s => s == p.SupplierId))
-                .ToList();
 
-            context.Parts.AddRange(parts);
-            context.SaveChanges();
+            context.AddRange(parts);
 
-            return $"Successfully imported {parts.Count}.";
+            var result = context.SaveChanges();
+
+            return $"Successfully imported {result}.";
         }
         //ex.11
         public static string ImportCars(CarDealerContext context, string inputJson)
         {
-
             var carsDtos = JsonConvert.DeserializeObject<List<CarDTO>>(inputJson);
 
             List<Car> cars = new List<Car>();
@@ -175,6 +173,35 @@ namespace CarDealer
 
             return json;
         }
+        //ex.16
+        public static string GetCarsWithTheirListOfParts(CarDealerContext context)
+        {
+            var carsPars = context.Cars
+                .Select(c => new
+                {
+                    c.Make,
+                    c.Model,
+                    c.TravelledDistance,
+                    Parts = c.PartCars.Select(p => new
+                    {
+                        Name = p.Part.Name,
+                        Parts = p.Part.Price.ToString("f2")
+                    })
+                })
+                .ToList();
+
+
+                 var settings = new JsonSerializerSettings()
+                 {
+                     ContractResolver = new CamelCasePropertyNamesContractResolver()
+                 };
+
+            var json = JsonConvert.SerializeObject(carsPars, Formatting.Indented, settings);
+
+            return json;
+        }
+        //еx.17
+       
         private static void InitializeMapper()
         {
             var config = new MapperConfiguration(cfg =>

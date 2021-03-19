@@ -10,3 +10,4 @@ C:\Users\Georges\Desktop\CSharp-DB\EF CORE\JSON Processing\08. JSON-Processing-C
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\JSON Processing\08. JSON-Processing-Car-Dealer-Skeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.dll
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\JSON Processing\08. JSON-Processing-Car-Dealer-Skeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.pdb
 C:\Users\Georges\Desktop\CSharp-DB\EF CORE\JSON Processing\08. JSON-Processing-Car-Dealer-Skeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.genruntimeconfig.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\JSON Processing\08. JSON-Processing-Car-Dealer-Skeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.csprojAssemblyReference.cache
