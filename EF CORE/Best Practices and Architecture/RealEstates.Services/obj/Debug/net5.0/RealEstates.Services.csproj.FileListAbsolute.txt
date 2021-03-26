@@ -1,0 +1,17 @@
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\bin\Debug\net5.0\RealEstates.Services.deps.json
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\bin\Debug\net5.0\RealEstates.Services.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\bin\Debug\net5.0\ref\RealEstates.Services.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\bin\Debug\net5.0\RealEstates.Services.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\bin\Debug\net5.0\RealEstates.Data.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\bin\Debug\net5.0\RealEstates.Models.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\bin\Debug\net5.0\RealEstates.Data.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\bin\Debug\net5.0\RealEstates.Models.pdb
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\obj\Debug\net5.0\RealEstates.Services.csprojAssemblyReference.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\obj\Debug\net5.0\RealEstates.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\obj\Debug\net5.0\RealEstates.Services.AssemblyInfoInputs.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\obj\Debug\net5.0\RealEstates.Services.AssemblyInfo.cs
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\obj\Debug\net5.0\RealEstates.Services.csproj.CoreCompileInputs.cache
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\obj\Debug\net5.0\RealEstates.Services.csproj.CopyComplete
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\obj\Debug\net5.0\RealEstates.Services.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\obj\Debug\net5.0\ref\RealEstates.Services.dll
+C:\Users\Georges\Desktop\CSharp-DB\EF CORE\Best Practices and Architecture\RealEstates.Services\obj\Debug\net5.0\RealEstates.Services.pdb

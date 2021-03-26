@@ -1,0 +1,32 @@
+[
+  {
+    "author": "Bill Gates",
+    "date": "27-01-2020",
+    "name": "Top 5 programming languages in 2020",
+    "rating": "5"
+  },
+  {
+    "author": "Svetlin Nakov",
+    "date": "02-05-2020",
+    "name": "How to write bug-free code",
+    "rating": "10"
+  },
+  {
+    "author": "Nikolay Kostov",
+    "date": "08-07-2020",
+    "name": "Set up your very own web server!",
+    "rating": "20"
+  },
+  {
+    "author": "Elon Musk",
+    "date": "17-04-2020",
+    "name": "The future of space travel",
+    "rating": "50"
+  },
+  {
+    "author": "Alen Paunov",
+    "date": "10-07-2020",
+    "name": "How to manage effectively",
+    "rating": "50"
+  }
+]
